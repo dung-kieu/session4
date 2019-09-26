@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="bangcuuchuong()">
+    <script>
+        function bangcuuchuong() {
+            document.write("<table border='2'>");
+            for (i = 1; i <= 9; i++) {
+                document.write("<tr>")
+                for (j = 1; j <= 9; j++) {
+                    document.write("<td>" + j + "x" + i + "=" + (i * j) + "</td>");
+                }
+                document.write("</tr>")
+            }
+            document.write("</table>");
+        }
+    </script>
+</body>
+</html>
